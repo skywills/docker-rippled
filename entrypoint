@@ -120,7 +120,5 @@ ${RIPPLED_VALIDATORS_KEY}
 EOF
 fi
 
-cat ${RIPPLED_CONF}
-
 # Start rippled, Passthrough other arguments
-exec /opt/ripple/bin/rippled --net --conf ${RIPPLED_CONF} "$@"
+exec /opt/ripple/bin/rippled --conf ${RIPPLED_CONF} "$@"
