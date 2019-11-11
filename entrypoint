@@ -106,6 +106,10 @@ validators.txt
 
 [ssl_verify]
 1      
+
+#enable remote signing
+[signing_support]
+${SIGNSUPPORT:-true}
 EOF
 fi
 
