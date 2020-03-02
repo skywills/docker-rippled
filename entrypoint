@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-RIPPLED_DIR=/etc
+RIPPLED_DIR=/etc/config/
 RIPPLED_CONF=${RIPPLED_DIR}/rippled.cfg
 RIPPLED_VALIDATORS=${RIPPLED_DIR}/validators.txt
 TESTNET=${TESTNET:-1}
